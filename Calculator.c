@@ -6,18 +6,15 @@
 #include "NaturalLog.h"
 #include "SquareRoots.h"
 #include <math.h>
-
-void display(){
-    printf("1. Addition\n");
-    printf("2. Subtraction\n");
-    printf("3. Multiplication\n");
-    printf("4. Divide\n");
-    printf("5. Natural Log\n");
-}
 int main() {
     int choice;
     do {
-        printf("Choose an option");
+        printf("Choose an option\n");
+        printf("1. Addition\n");
+        printf("2. Subtraction\n");
+        printf("3. Multiplication\n");
+        printf("4. Divide\n");
+        printf("5. Natural Log\n");
         scanf("%d", &choice);
         switch (choice) {
             case 1:
